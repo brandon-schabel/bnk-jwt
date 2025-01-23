@@ -1,4 +1,4 @@
-import type { JwtHandlers } from './jwt-be'
+import type { JwtHandlers } from './jwt'
 import type { RefreshToken } from './jwt-types'
 
 export interface StoredRefreshToken extends RefreshToken {

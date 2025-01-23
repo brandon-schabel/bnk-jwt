@@ -9,7 +9,7 @@ import {
   isTokenExpired,
   payloadValidator,
   sign,
-} from './jwt-server-utils'
+} from './jwt-utils'
 import type { JwtHeader, JwtPayload } from './jwt-types'
 
 const secret = 'test-secret' // For testing purposes only

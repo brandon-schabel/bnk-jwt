@@ -1,6 +1,6 @@
 import { afterAll, afterEach, describe, expect, it, jest } from 'bun:test'
 import { jwtBackend } from './jwt-be'
-import { base64UrlDecode, base64UrlEncode, sign } from './jwt-server-utils'
+import { base64UrlDecode, base64UrlEncode, sign } from './jwt-utils'
 import { createJwtFileHandlers } from './jwt-token-file-handlers'
 
 describe('JWT Server Side Factory', () => {

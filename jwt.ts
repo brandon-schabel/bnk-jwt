@@ -7,7 +7,7 @@ import {
   encrypt,
   isTokenExpired,
   payloadValidator,
-} from './jwt-server-utils'
+} from './jwt-utils'
 import type { JwtHeader, JwtPayload, RefreshToken } from './jwt-types'
 
 export interface JwtHandlers {
