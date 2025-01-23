@@ -1,5 +1,5 @@
 import { afterAll, afterEach, describe, expect, it, jest } from 'bun:test'
-import { jwtBackend } from './jwt-be'
+import { jwtBackend } from './jwt'
 import { base64UrlDecode, base64UrlEncode, sign } from './jwt-utils'
 import { createJwtFileHandlers } from './jwt-token-file-handlers'
 
